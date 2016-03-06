@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Celtic;
+    src: url(../fonts/celtic.ttf);
+}
+
+body{
+    background-color: #636363;
+   /** background-image: url(../pics/templom.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;**/
+    font-family: celtic;
+}
+div#kaza{
+    width: 100%;
+    height: 100%;
+    background-image: url(../pics/templom.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+div.alsoSor{
+     min-height: 300px;
+    margin-bottom: 50px;
+}
+div.statok{
+    min-width: 300px;
+    min-height: 360px;
+    background-image: url(../pics/stback.jpg);
+    padding: 5px;
+}
+img.kepek{
+    width: 300px;
+    height: 360px;
+    
+}
+.hosKep{
+    border: 3px #FFD700 solid;
+    box-shadow: 8px 8px 8px #050505;
+}
+.ellensegKep{
+    border: 3px #cc0000 solid;
+    box-shadow: 8px 8px 8px #050505;
+}
+table.statTabla{
+    width: 100%;
+    
+}
+table.statTabla td{
+    border: 5px #000000 inset;
+    
+}
+
+
